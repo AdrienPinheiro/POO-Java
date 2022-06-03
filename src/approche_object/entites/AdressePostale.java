@@ -1,4 +1,4 @@
-package entites;
+package approche_object.entites;
 
 public class AdressePostale{
     int numRue;
