@@ -1,4 +1,8 @@
-package entites;
+package entites2;
+
+import entites.AdressePostale;
+
+import java.util.Locale;
 
 public class Personne {
     String nom;
@@ -21,6 +25,10 @@ public class Personne {
 
     public String getPrenom() {
         return prenom;
+    }
+
+    public String getNomPrenom(){
+        return prenom.toUpperCase()+" "+nom.toUpperCase();
     }
 
     public void setPrenom(String prenom) {
