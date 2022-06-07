@@ -27,7 +27,7 @@ public abstract class Operation {
 
     @Override
     public String toString() {
-        return "Date de l'operation : le "
+        return "une operation : le "
                 + date + " avec pour montant "
                 + montant + "€.";
     }
