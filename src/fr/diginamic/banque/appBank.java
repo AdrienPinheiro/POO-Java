@@ -3,9 +3,6 @@ package fr.diginamic.banque;
 import fr.diginamic.banque.entites.Compte;
 import fr.diginamic.banque.entites.CompteDaoMem;
 import fr.diginamic.banque.entites.CompteTaux;
-import fr.diginamic.banque.utils.Credit;
-import fr.diginamic.banque.utils.Debit;
-import fr.diginamic.banque.utils.Operation;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -108,6 +105,7 @@ public class appBank {
                 }
                 case 99 -> {
                     System.out.println("Aurevoir ☹");
+                    scan.close();
                 }
                 default -> System.out.println("Veuillez choisir un menu énoncé !");
             }
