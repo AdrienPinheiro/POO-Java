@@ -81,7 +81,6 @@ public class Pays {
 
         //Le pays avec le PIB total le plus petit + en majuscule
         Pays paysMinPib = null;
-        long test = 20715018000000L;
         for(Pays p : pays){
             long testMinPib = (long) ((long) p.getNbrHab() * p.getPibHab());
             if(testMinPib < maxPib){
