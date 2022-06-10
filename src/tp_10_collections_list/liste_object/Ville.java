@@ -58,14 +58,14 @@ public class Ville {
 
     public static void main(String[] args) {
         ArrayList<Ville> villes = new ArrayList<>();
-        Collections.addAll(villes, new Ville("Nice", 343000, Continent.EUROPE),
-                new Ville("Carcassonne", 47800, Continent.EUROPE),
-                new Ville("Narbonne", 53400, Continent.EUROPE),
-                new Ville("Lyon", 484000, Continent.EUROPE),
-                new Ville("Foix", 9700, Continent.EUROPE),
-                new Ville("Pau", 77200, Continent.EUROPE),
-                new Ville("Marseille", 850700, Continent.EUROPE),
-                new Ville("Tarbes", 40600, Continent.EUROPE));
+        Collections.addAll(villes, new Ville("Nice", 343_000, Continent.EUROPE),
+                new Ville("Carcassonne", 47_800, Continent.EUROPE),
+                new Ville("Narbonne", 53_400, Continent.EUROPE),
+                new Ville("Lyon", 484_000, Continent.EUROPE),
+                new Ville("Foix", 9_700, Continent.EUROPE),
+                new Ville("Pau", 77_200, Continent.EUROPE),
+                new Ville("Marseille", 850_700, Continent.EUROPE),
+                new Ville("Tarbes", 40_600, Continent.EUROPE));
         System.out.println(villes);
 
         // Afficher la ville la plus peuplée
